@@ -1,0 +1,8 @@
+---
+- src: williamyeh.nginx
+- src: chusiang.php7
+- src: https://github.com/ANXS/postgresql.git
+  version: v1.6.2
+  name: ANXS.postgresql
+- src: geerlingguy.composer
+- src: geerlingguy.git
