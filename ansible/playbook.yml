@@ -1,11 +1,11 @@
 - hosts: all
 
   roles:
-    - williamyeh.nginx
-    - chusiang.php7
-    - ANXS.postgresql
-    - geerlingguy.composer
     - geerlingguy.git
+    - geerlingguy.nginx
+    - chusiang.php7
+    - geerlingguy.composer
+    - ANXS.postgresql
 
   vars_files:
     - vars/nginx.yml
