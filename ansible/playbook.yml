@@ -11,3 +11,4 @@
     - vars/nginx.yml
     - vars/php7.yml
     - vars/postgresql.yml
+    - vars/git.yml
