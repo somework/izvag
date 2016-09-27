@@ -12,3 +12,13 @@
     - vars/php7.yml
     - vars/postgresql.yml
     - vars/git.yml
+
+  tasks:
+    - file: path=/var/www state=directory mode=0755
+      name: create /var/www
+    - composer:
+        command: "create-project"
+        arguments: "drupal/drupal drupal 8.1.*"
+        working_dir: "/var/www/"
+        prefer_dist: "yes"
+      name: Install drupal throw composer
