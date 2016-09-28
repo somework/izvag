@@ -4,3 +4,5 @@
 
 .idea/
 
+ansible/roles/
+ansible/playbook.retry

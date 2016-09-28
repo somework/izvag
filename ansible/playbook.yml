@@ -5,6 +5,7 @@
     - geerlingguy.nginx
     - chusiang.php7
     - geerlingguy.composer
+    - adv.drush
     - ANXS.postgresql
 
   vars_files:
@@ -13,12 +14,12 @@
     - vars/postgresql.yml
     - vars/git.yml
 
-  tasks:
-    - file: path=/var/www state=directory mode=0755
-      name: create /var/www
-    - composer:
-        command: "create-project"
-        arguments: "drupal/drupal drupal 8.1.*"
-        working_dir: "/var/www/"
-        prefer_dist: "yes"
-      name: Install drupal throw composer
+#  tasks:
+#    - file: path=/var/www state=directory mode=0755
+#      name: create /var/www
+#    - composer:
+#        command: "create-project"
+#        arguments: "drupal/drupal drupal 8.1.*"
+#        working_dir: "/var/www/"
+#        prefer_dist: "yes"
+#      name: Install drupal throw composer
