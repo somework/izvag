@@ -2,6 +2,7 @@
 
   roles:
     - azavea.unzip
+    - hashbangcode.sendmail
     - geerlingguy.git
     - geerlingguy.nginx
     - chusiang.php7

@@ -11,3 +11,4 @@
   name: adv.drush
   path: roles
 - src: azavea.unzip
+- src: hashbangcode.sendmail
