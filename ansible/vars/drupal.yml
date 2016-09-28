@@ -1,4 +1,4 @@
-drupal_install_profile: standard
+drupal_install_profile: thunder
 drupal_webserver_daemon: nginx
 
 # Your Drupal db data.
@@ -27,6 +27,7 @@ drupal_core_path: /var/www/drupal
 # by `drupal_core_version` (the git tag or branch) whenever this playbook runs.
 drupal_keep_updated: no
 
-drupal_enable_modules:
+drupal_download_profiles:
   - thunder
 
+drupal_enable_modules:

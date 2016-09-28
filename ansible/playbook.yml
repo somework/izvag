@@ -41,6 +41,12 @@
       failed_when: false
       changed_when: false
 
+    - name: Download profiles.
+      command: >
+        drush dl -y {{ drupal_download_profiles | join(" ") }}
+        chdir={{ drupal_core_path }}
+      when: "'Successful' not in drupal_site_installed.stdout"
+
     - name: Install Drupal with drush.
       command: >
         drush si {{ drupal_install_profile }} -y
@@ -68,4 +74,4 @@
       command: >
         /usr/local/bin/drush pm-enable -y {{ drupal_enable_modules | join(" ") }}
         chdir={{ drupal_core_path }}
-      when: "'Successful' not in drupal_site_installed.stdout"
+      when: "'Successful' not in drupal_site_installed.stdout and drupal_enable_modules"
