@@ -14,4 +14,9 @@ Vagrant.configure("2") do |config|
       ansible.galaxy_role_file = "ansible/requirements.yml"
       ansible.sudo = true
   end
+  
+  config.vm.provider "virtualbox" do |v|
+    v.memory = 2048
+    v.cpus = 2
+  end
 end

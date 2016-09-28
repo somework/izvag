@@ -10,3 +10,4 @@
   version: master
   name: adv.drush
   path: roles
+- src: azavea.unzip

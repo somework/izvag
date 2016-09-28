@@ -1,0 +1,32 @@
+drupal_install_profile: standard
+drupal_webserver_daemon: nginx
+
+# Your Drupal db data.
+drupal_db_name: drupal
+drupal_db_user: drupal_user
+drupal_db_password: secret_password
+
+# Your Drupal site name.
+drupal_site_name: "Drupal Example"
+
+# Your Drupal site admin account credentials.
+drupal_admin_name: admin
+drupal_admin_password: admin
+
+# The Drupal git url from which Drupal will be cloned.
+drupal_repo_url: "http://git.drupal.org/project/drupal.git"
+
+# The core version you want to use (e.g. 6.x, 7.x, 8.0.x).
+# Currently stable 8.1.10
+drupal_core_version: "8.1.10"
+
+# The path where Drupal will be downloaded and installed.
+drupal_core_path: /var/www/drupal
+
+# Whether to update the repo above to the latest commit in the branch identified
+# by `drupal_core_version` (the git tag or branch) whenever this playbook runs.
+drupal_keep_updated: no
+
+drupal_enable_modules:
+  - thunder
+
