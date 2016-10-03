@@ -19,4 +19,7 @@ Vagrant.configure("2") do |config|
     v.memory = 2048
     v.cpus = 2
   end
+
+  # Synced folder
+  config.vm.synced_folder "./drupal", "/var/www/drupal", owner: "www-data", group: "www-data", create: true
 end

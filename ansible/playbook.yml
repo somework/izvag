@@ -18,9 +18,6 @@
     - vars/git.yml
 
   tasks:
-    - name: Create directory
-      command: >
-        mkdir -p {{ drupal_core_path }}
 
     - name: Check out Drupal Core to the default location.
       git:
