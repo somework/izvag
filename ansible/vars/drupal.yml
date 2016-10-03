@@ -27,7 +27,12 @@ drupal_core_path: /var/www/drupal
 # by `drupal_core_version` (the git tag or branch) whenever this playbook runs.
 drupal_keep_updated: no
 
-drupal_download_profiles:
-#  - thunder
-
 drupal_enable_modules:
+  - config
+  - editor
+  - field_ui
+  - ckeditor      #WYSIWYG editing
+  - menu_ui
+  - search
+  - taxonomy
+  - toolbar

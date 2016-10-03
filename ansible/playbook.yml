@@ -43,7 +43,7 @@
       command: >
         drush dl -y {{ drupal_download_profiles | join(" ") }}
         chdir={{ drupal_core_path }}
-      when: "'Successful' not in drupal_site_installed.stdout"
+      when: "drupal_download_profiles is defined and 'Successful' not in drupal_site_installed.stdout"
 
     - name: Install Drupal with drush.
       command: >
@@ -72,4 +72,4 @@
       command: >
         /usr/local/bin/drush pm-enable -y {{ drupal_enable_modules | join(" ") }}
         chdir={{ drupal_core_path }}
-      when: "'Successful' not in drupal_site_installed.stdout and drupal_enable_modules"
+      when: "'Successful' not in drupal_site_installed.stdout and drupal_enable_modules is defined"

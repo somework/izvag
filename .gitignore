@@ -6,3 +6,5 @@
 
 ansible/roles/
 ansible/playbook.retry
+
+drupal
