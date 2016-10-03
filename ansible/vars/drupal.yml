@@ -1,4 +1,4 @@
-drupal_install_profile: thunder
+drupal_install_profile: minimal
 drupal_webserver_daemon: nginx
 
 # Your Drupal db data.
@@ -28,6 +28,6 @@ drupal_core_path: /var/www/drupal
 drupal_keep_updated: no
 
 drupal_download_profiles:
-  - thunder
+#  - thunder
 
 drupal_enable_modules:
