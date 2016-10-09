@@ -1,0 +1,10 @@
+name: 'Izvestia media config'
+description: 'Provides config for some media modules'
+type: module
+core: 8.x
+
+dependencies:
+  - entity
+  - media_entity
+  - media_entity_image
+package: izvestia

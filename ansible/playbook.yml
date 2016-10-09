@@ -19,18 +19,6 @@
 
   tasks:
 
-    - name: Check out Drupal Core to the default location.
-      git:
-        repo: "{{ drupal_repo_url }}"
-        version: "{{ drupal_core_version }}"
-        update: "{{ drupal_keep_updated }}"
-        dest: "{{ drupal_core_path }}"
-
-    - name: Install drupal composer dependencies.
-      command: >
-        composer install
-        chdir={{ drupal_core_path }}
-
     - name: Check if site is already installed.
       command: >
         /usr/local/bin/drush status bootstrap
@@ -38,6 +26,23 @@
       register: drupal_site_installed
       failed_when: false
       changed_when: false
+
+    - name: Download drupal
+      command: >
+        drush dl -y drupal --drupal-project-rename={{ drupal_core_path }}
+        chdir=/
+      when: "'Successful' not in drupal_site_installed.stdout"
+
+    - name: Install drupal composer dependencies.
+      command: >
+        composer install
+        chdir={{ drupal_core_path }}
+
+    - name: Download modules
+      command: >
+        drush dl -y {{ drupal_download_modules | join(" ") }}
+        chdir={{ drupal_core_path }}
+      when: "drupal_download_modules is defined and 'Successful' not in drupal_site_installed.stdout"
 
     - name: Download profiles.
       command: >

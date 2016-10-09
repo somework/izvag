@@ -18,7 +18,7 @@ drupal_repo_url: "http://git.drupal.org/project/drupal.git"
 
 # The core version you want to use (e.g. 6.x, 7.x, 8.0.x).
 # Currently stable 8.1.10
-drupal_core_version: "8.1.10"
+drupal_core_version: "8.2.0"
 
 # The path where Drupal will be downloaded and installed.
 drupal_core_path: /var/www/drupal
@@ -27,12 +27,25 @@ drupal_core_path: /var/www/drupal
 # by `drupal_core_version` (the git tag or branch) whenever this playbook runs.
 drupal_keep_updated: no
 
-drupal_enable_modules:
-  - config
-  - editor
-  - field_ui
-  - ckeditor      #WYSIWYG editing
-  - menu_ui
-  - search
-  - taxonomy
-  - toolbar
+#drupal_download_modules:
+# - entity
+# - entity_browser
+# - entity_reference_revisions
+# - paragraphs
+# - admin_toolbar
+# - dropzonejs
+# - blazy
+# - media_entity
+# - media_entity_image
+# - media_entity_twitter
+# - media_entity_instagram
+# - media_entity_slideshow
+# - video_embed_field
+# - video_embed_instagram
+# - video_embed_facebook
+# - slick
+# - slick_media
+# - focal_point
+# - crop
+# - entity_browser_entity_form
+# - inline_entity_form
