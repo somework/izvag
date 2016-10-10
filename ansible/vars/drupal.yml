@@ -27,6 +27,11 @@ drupal_core_path: /var/www/drupal
 # by `drupal_core_version` (the git tag or branch) whenever this playbook runs.
 drupal_keep_updated: no
 
+drupal_download_modules:
+  - entity
+  - media_entity
+  - media_entity_image
+
 #drupal_download_modules:
 # - entity
 # - entity_browser

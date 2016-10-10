@@ -1,6 +1,6 @@
 name: Izvestia
 type: profile
-description: 'Description of your profile.'
+description: 'Base profile for izvestia.ru'
 core: 8.x
 
 distribution:
@@ -21,3 +21,5 @@ dependencies:
   - dynamic_page_cache
   - page_cache
 # Modules with config
+  - izvestia_media
+  - izvestia_system

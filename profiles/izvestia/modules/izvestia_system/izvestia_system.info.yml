@@ -2,7 +2,4 @@ name: 'Izvestia system config'
 description: 'Provides config for some system modules'
 type: module
 core: 8.x
-
-dependencies:
-
 package: izvestia
