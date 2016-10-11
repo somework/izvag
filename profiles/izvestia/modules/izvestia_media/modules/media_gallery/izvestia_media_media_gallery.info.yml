@@ -1,14 +1,17 @@
-name: 'Izvestia media config'
-description: 'Provides config for some media modules'
+name: 'Izvestia media gallery bundle'
+description: 'Provides media gallery'
 type: module
 core: 8.x
 
 dependencies:
+  - text
+  - image
+  - user
   - izvestia_media_fields
   - izvestia_media_image
   - izvestia_media_video_embed
   - izvestia_media_infographic
   - izvestia_media_infographic_html
-  - izvestia_media_media_gallery
+  - izvestia_taxonomy
 
 package: izvestia

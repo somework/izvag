@@ -1,0 +1,14 @@
+name: 'Izvestia image bundle'
+description: 'Provides image bundle for media'
+type: module
+core: 8.x
+
+dependencies:
+  - text
+  - image
+  - user
+  - media_entity_image
+  - izvestia_taxonomy
+  - izvestia_media_fields
+
+package: izvestia

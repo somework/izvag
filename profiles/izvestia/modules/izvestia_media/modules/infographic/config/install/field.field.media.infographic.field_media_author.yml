@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_author
+    - media_entity.bundle.infographic
+    - taxonomy.vocabulary.media_author
+id: media.infographic.field_media_author
+field_name: field_media_author
+entity_type: media
+bundle: infographic
+label: Author
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      media_author: media_author
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

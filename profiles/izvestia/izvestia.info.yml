@@ -25,6 +25,8 @@ dependencies:
   - field_ui
   - views
   - views_ui
+  - editor
+  - ckeditor
 # Modules with config
   - izvestia_system
   - izvestia_taxonomy

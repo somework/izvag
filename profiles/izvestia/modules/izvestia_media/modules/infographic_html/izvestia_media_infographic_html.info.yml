@@ -1,0 +1,14 @@
+name: 'Izvestia infographic html media bundle'
+description: 'Provides infographic html for media'
+type: module
+core: 8.x
+
+dependencies:
+  - image
+  - text
+  - user
+  - media_entity
+  - izvestia_taxonomy
+  - izvestia_media_fields
+
+package: izvestia

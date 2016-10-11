@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_infographic_html
+    - media_entity.bundle.infographic_html
+  module:
+    - text
+id: media.infographic_html.field_infographic_html
+field_name: field_infographic_html
+entity_type: media
+bundle: infographic_html
+label: HTML
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
