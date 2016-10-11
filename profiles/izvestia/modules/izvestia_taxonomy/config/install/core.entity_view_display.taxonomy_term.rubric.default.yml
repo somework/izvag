@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.rubric.field_is_advertising
+    - taxonomy.vocabulary.rubric
+  module:
+    - text
+id: taxonomy_term.rubric.default
+targetEntityType: taxonomy_term
+bundle: rubric
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_is_advertising:
+    weight: 1
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+hidden: {  }

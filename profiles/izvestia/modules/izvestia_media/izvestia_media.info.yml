@@ -7,4 +7,8 @@ dependencies:
   - entity
   - media_entity
   - media_entity_image
+  - video_embed_field
+  - video_embed_media
+  - izvestia_taxonomy
+
 package: izvestia

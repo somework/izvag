@@ -6,10 +6,11 @@ core: 8.x
 distribution:
   name: Izvestia (by ADV/web-engineering)
 
+themes:
+  - stark
 dependencies:
-# Minimal core modules
+# Core
   - block
-  - field
   - filter
   - node
   - system
@@ -18,8 +19,14 @@ dependencies:
   - file
   - text
   - dblog
-  - dynamic_page_cache
   - page_cache
+  - dynamic_page_cache
+  - field
+  - field_ui
+  - views
+  - views_ui
 # Modules with config
-  - izvestia_media
   - izvestia_system
+  - izvestia_taxonomy
+  - izvestia_media
+  - izvestia_gallery

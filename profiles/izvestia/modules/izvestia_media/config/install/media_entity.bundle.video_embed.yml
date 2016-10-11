@@ -1,0 +1,14 @@
+uuid: a8969d41-ea51-4d0c-ac53-139ca926d808
+langcode: en
+status: true
+dependencies:
+  module:
+    - video_embed_media
+id: video_embed
+label: 'Video Embed'
+description: 'Only Youtube and Vimeo now'
+type: video_embed_field
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration: {  }
+field_map: {  }

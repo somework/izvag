@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Media copyright
+vid: media_copyright
+description: ''
+hierarchy: 0
+weight: 0

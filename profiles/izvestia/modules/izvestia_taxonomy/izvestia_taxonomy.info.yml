@@ -1,0 +1,8 @@
+name: 'Izvestia taxonomy config'
+description: 'Provides config for taxonomy modules'
+type: module
+core: 8.x
+package: izvestia
+
+dependencies:
+  - taxonomy

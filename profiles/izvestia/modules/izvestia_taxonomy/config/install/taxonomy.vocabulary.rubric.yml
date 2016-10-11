@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Rubric
+vid: rubric
+description: ''
+hierarchy: 1
+weight: 0
