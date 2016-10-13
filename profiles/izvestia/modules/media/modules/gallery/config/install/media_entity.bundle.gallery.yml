@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: gallery
+label: 'Gallery'
+description: 'Gallery of media that included all of other bundles'
+type: generic
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration: {  }
+field_map: {  }

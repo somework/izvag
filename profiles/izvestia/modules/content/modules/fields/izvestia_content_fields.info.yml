@@ -1,0 +1,9 @@
+name: 'Izvestia content fields'
+description: ''
+type: module
+core: 8.x
+package: izvestia
+
+dependencies:
+  - node
+  - taxonomy

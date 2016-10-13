@@ -1,0 +1,14 @@
+name: 'Izvestia media config'
+description: 'Provides config for some media modules'
+type: module
+core: 8.x
+
+dependencies:
+  - izvestia_media_fields
+  - izvestia_media_image
+  - izvestia_media_video_embed
+  - izvestia_media_infographic
+  - izvestia_media_infographic_html
+  - izvestia_media_gallery
+
+package: izvestia

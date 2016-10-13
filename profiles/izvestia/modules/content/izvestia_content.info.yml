@@ -1,0 +1,9 @@
+name: 'Izvestia content types'
+description: ''
+type: module
+core: 8.x
+
+dependencies:
+  - izvestia_content_news
+
+package: izvestia

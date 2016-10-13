@@ -1,0 +1,11 @@
+name: 'Izvestia content type "News"'
+description: ''
+type: module
+core: 8.x
+
+dependencies:
+  - text
+  - izvestia_taxonomy
+  - izvestia_content_fields
+
+package: izvestia

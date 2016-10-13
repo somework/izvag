@@ -31,4 +31,4 @@ dependencies:
   - izvestia_system
   - izvestia_taxonomy
   - izvestia_media
-  - izvestia_gallery
+  - izvestia_content
