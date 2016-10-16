@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_rubrics
+    - media_entity.bundle.document
+    - taxonomy.vocabulary.rubric
+id: media.document.field_rubrics
+field_name: field_rubrics
+entity_type: media
+bundle: document
+label: Rubrics
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      rubric: rubric
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -6,6 +6,7 @@ core: 8.x
 dependencies:
   - text
   - media_entity
+  - datetime
   - video_embed_field
   - izvestia_taxonomy
 

@@ -10,5 +10,6 @@ dependencies:
   - izvestia_media_infographic
   - izvestia_media_infographic_html
   - izvestia_media_gallery
+  - izvestia_media_document
 
 package: izvestia

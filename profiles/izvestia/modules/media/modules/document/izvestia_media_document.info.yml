@@ -1,0 +1,11 @@
+name: 'Izvestia media document bundle'
+description: 'Provides document'
+type: module
+core: 8.x
+
+dependencies:
+  - datetime
+  - text
+  - izvestia_media_fields
+
+package: izvestia

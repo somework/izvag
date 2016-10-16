@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_show_in_media
+    - media_entity.bundle.video_embed
+id: media.video_embed.field_show_in_media
+field_name: field_show_in_media
+entity_type: media
+bundle: video_embed
+label: 'Show in media'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean
