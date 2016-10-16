@@ -32,3 +32,4 @@ dependencies:
   - izvestia_taxonomy
   - izvestia_media
   - izvestia_content
+  - izvestia_user

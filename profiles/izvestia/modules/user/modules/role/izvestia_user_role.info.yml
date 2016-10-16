@@ -1,0 +1,6 @@
+name: 'Izvestia users role'
+description: ''
+type: module
+core: 8.x
+
+package: izvestia

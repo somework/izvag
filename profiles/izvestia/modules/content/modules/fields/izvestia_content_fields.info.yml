@@ -6,4 +6,6 @@ package: izvestia
 
 dependencies:
   - node
+  - telephone
+  - link
   - taxonomy

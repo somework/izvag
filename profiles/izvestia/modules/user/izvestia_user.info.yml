@@ -1,0 +1,11 @@
+name: 'Izvestia users config'
+description: ''
+type: module
+core: 8.x
+
+dependencies:
+  - user
+  - izvestia_user_role
+  - izvestia_user_fields
+
+package: izvestia

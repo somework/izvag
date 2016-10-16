@@ -1,0 +1,9 @@
+name: 'Izvestia users fields'
+description: ''
+type: module
+core: 8.x
+
+dependencies:
+  - options
+
+package: izvestia

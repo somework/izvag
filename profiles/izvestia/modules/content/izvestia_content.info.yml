@@ -5,5 +5,6 @@ core: 8.x
 
 dependencies:
   - izvestia_content_news
+  - izvestia_content_author
 
 package: izvestia
