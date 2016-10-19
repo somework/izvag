@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publish_in_rss
+    - node.type.reportage
+id: node.reportage.field_publish_in_rss
+field_name: field_publish_in_rss
+entity_type: node
+bundle: reportage
+label: 'Publish in RSS'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

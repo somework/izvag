@@ -2,11 +2,11 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.article
-id: node.article.promote
+    - node.type.interview
+id: node.interview.promote
 field_name: promote
 entity_type: node
-bundle: article
+bundle: interview
 label: 'Promoted to front page'
 description: ''
 required: false
