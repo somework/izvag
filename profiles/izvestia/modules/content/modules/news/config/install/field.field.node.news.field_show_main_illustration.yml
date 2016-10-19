@@ -2,19 +2,19 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_is_advertising_column
+    - field.storage.node.field_show_main_illustration
     - node.type.news
-id: node.news.field_is_advertising_column
-field_name: field_is_advertising_column
+id: node.news.field_show_main_illustration
+field_name: field_show_main_illustration
 entity_type: node
 bundle: news
-label: 'Is advertising (column)'
+label: 'Show main illustration'
 description: ''
 required: false
 translatable: false
 default_value:
   -
-    value: 0
+    value: 1
 default_value_callback: ''
 settings:
   on_label: 'Yes'

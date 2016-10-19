@@ -2,24 +2,24 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_source
+    - field.storage.node.field_main_illustration
+    - media_entity.bundle.image
     - node.type.news
-    - taxonomy.vocabulary.material_source
-id: node.news.field_source
-field_name: field_source
+id: node.news.field_main_illustration
+field_name: field_main_illustration
 entity_type: node
 bundle: news
-label: Source
+label: 'Main illustration'
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:taxonomy_term'
+  handler: 'default:media'
   handler_settings:
     target_bundles:
-      material_source: material_source
+      image: image
     sort:
       field: _none
     auto_create: false

@@ -3,8 +3,8 @@ status: true
 dependencies:
   module:
     - node
-id: node.field_is_advertising_title
-field_name: field_is_advertising_title
+id: node.field_is_advertising
+field_name: field_is_advertising
 entity_type: node
 type: boolean
 settings: {  }

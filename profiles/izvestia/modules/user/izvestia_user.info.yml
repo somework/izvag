@@ -6,5 +6,6 @@ core: 8.x
 dependencies:
   - user
   - izvestia_user_fields
+  - options
 
 package: izvestia

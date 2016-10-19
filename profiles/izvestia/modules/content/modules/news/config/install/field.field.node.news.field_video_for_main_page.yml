@@ -2,24 +2,24 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_source
+    - field.storage.node.field_video_for_main_page
+    - media_entity.bundle.video_embed
     - node.type.news
-    - taxonomy.vocabulary.material_source
-id: node.news.field_source
-field_name: field_source
+id: node.news.field_video_for_main_page
+field_name: field_video_for_main_page
 entity_type: node
 bundle: news
-label: Source
+label: 'Video for main page'
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:taxonomy_term'
+  handler: 'default:media'
   handler_settings:
     target_bundles:
-      material_source: material_source
+      video_embed: video_embed
     sort:
       field: _none
     auto_create: false

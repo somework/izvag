@@ -6,8 +6,10 @@ dependencies:
 id: node.field_subtitle
 field_name: field_subtitle
 entity_type: node
-type: string_long
+type: string
 settings:
+  max_length: 200
+  is_ascii: false
   case_sensitive: false
 module: core
 locked: false

@@ -3,13 +3,12 @@ status: true
 dependencies:
   module:
     - node
-    - text
-id: node.field_leader_paragraph
-field_name: field_leader_paragraph
+id: node.field_show_main_illustration
+field_name: field_show_main_illustration
 entity_type: node
-type: text_long
+type: boolean
 settings: {  }
-module: text
+module: core
 locked: false
 cardinality: 1
 translatable: true

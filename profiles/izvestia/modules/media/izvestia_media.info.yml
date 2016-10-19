@@ -9,7 +9,7 @@ dependencies:
   - izvestia_media_video_embed
   - izvestia_media_infographic
   - izvestia_media_infographic_html
-  - izvestia_media_gallery
+  - izvestia_media_image_gallery
   - izvestia_media_document
 
 package: izvestia

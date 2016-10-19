@@ -32,10 +32,11 @@ drupal_download_modules:
   - media_entity
   - media_entity_image
   - video_embed_field
-  - video_embed_media
   - entity_browser
   - inline_entity_form
+  - media_entity_slideshow
   - ctools
+  - scheduler
 
 #drupal_download_modules:
 # - entity

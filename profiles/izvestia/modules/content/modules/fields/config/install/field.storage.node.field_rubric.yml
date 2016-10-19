@@ -4,8 +4,8 @@ dependencies:
   module:
     - node
     - taxonomy
-id: node.field_rubrics
-field_name: field_rubrics
+id: node.field_rubric
+field_name: field_rubric
 entity_type: node
 type: entity_reference
 settings:

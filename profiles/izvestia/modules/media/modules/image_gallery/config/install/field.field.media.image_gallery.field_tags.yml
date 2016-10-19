@@ -3,12 +3,12 @@ status: true
 dependencies:
   config:
     - field.storage.media.field_tags
-    - media_entity.bundle.gallery
+    - media_entity.bundle.image_gallery
     - taxonomy.vocabulary.tag
-id: media.gallery.field_tags
+id: media.image_gallery.field_tags
 field_name: field_tags
 entity_type: media
-bundle: gallery
+bundle: image_gallery
 label: Tags
 description: ''
 required: false

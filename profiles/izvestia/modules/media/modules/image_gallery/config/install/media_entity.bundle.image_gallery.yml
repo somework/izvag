@@ -1,9 +1,9 @@
 langcode: en
 status: true
 dependencies: {  }
-id: gallery
-label: 'Gallery'
-description: 'Gallery of media that included all of other bundles'
+id: image_gallery
+label: 'Image Gallery'
+description: ''
 type: generic
 queue_thumbnail_downloads: false
 new_revision: false

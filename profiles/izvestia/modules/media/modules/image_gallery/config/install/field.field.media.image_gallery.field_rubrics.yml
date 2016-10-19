@@ -2,24 +2,24 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.media.field_subjects
-    - media_entity.bundle.gallery
-    - taxonomy.vocabulary.subject
-id: media.gallery.field_subjects
-field_name: field_subjects
+    - field.storage.media.field_rubrics
+    - media_entity.bundle.image_gallery
+    - taxonomy.vocabulary.rubric
+id: media.image_gallery.field_rubrics
+field_name: field_rubrics
 entity_type: media
-bundle: gallery
-label: Subjects
+bundle: image_gallery
+label: Rubrics
 description: ''
-required: false
-translatable: false
+required: true
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      subject: subject
+      rubric: rubric
     sort:
       field: _none
     auto_create: false

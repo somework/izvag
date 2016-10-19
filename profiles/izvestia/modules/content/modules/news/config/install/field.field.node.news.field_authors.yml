@@ -2,24 +2,24 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_source
+    - field.storage.node.field_authors
+    - node.type.author
     - node.type.news
-    - taxonomy.vocabulary.material_source
-id: node.news.field_source
-field_name: field_source
+id: node.news.field_authors
+field_name: field_authors
 entity_type: node
 bundle: news
-label: Source
+label: Authors
 description: ''
 required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:taxonomy_term'
+  handler: 'default:node'
   handler_settings:
     target_bundles:
-      material_source: material_source
+      author: author
     sort:
       field: _none
     auto_create: false

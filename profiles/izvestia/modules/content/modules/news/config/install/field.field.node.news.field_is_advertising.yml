@@ -2,13 +2,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_is_advertising_title
+    - field.storage.node.field_is_advertising
     - node.type.news
-id: node.news.field_is_advertising_title
-field_name: field_is_advertising_title
+id: node.news.field_is_advertising
+field_name: field_is_advertising
 entity_type: node
 bundle: news
-label: 'Is advertising (title)'
+label: 'Is advertising'
 description: ''
 required: false
 translatable: false

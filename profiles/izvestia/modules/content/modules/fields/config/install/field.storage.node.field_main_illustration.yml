@@ -2,12 +2,14 @@ langcode: en
 status: true
 dependencies:
   module:
+    - media_entity
     - node
-id: node.field_is_advertising_column
-field_name: field_is_advertising_column
+id: node.field_main_illustration
+field_name: field_main_illustration
 entity_type: node
-type: boolean
-settings: {  }
+type: entity_reference
+settings:
+  target_type: media
 module: core
 locked: false
 cardinality: 1

@@ -2,19 +2,21 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.media.field_media
+    - field.storage.node.field_media
+    - media_entity.bundle.document
     - media_entity.bundle.image
+    - media_entity.bundle.image_gallery
     - media_entity.bundle.infographic
     - media_entity.bundle.infographic_html
-    - media_entity.bundle.gallery
     - media_entity.bundle.video_embed
-id: media.gallery.field_media
+    - node.type.news
+id: node.news.field_media
 field_name: field_media
-entity_type: media
-bundle: gallery
+entity_type: node
+bundle: news
 label: Media
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -22,13 +24,14 @@ settings:
   handler: 'default:media'
   handler_settings:
     target_bundles:
+      document: document
       image: image
+      image_gallery: image_gallery
       infographic: infographic
       infographic_html: infographic_html
       video_embed: video_embed
     sort:
-      field: created
-      direction: ASC
+      field: _none
     auto_create: false
-    auto_create_bundle: image
+    auto_create_bundle: document
 field_type: entity_reference

@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_source
+    - field.storage.node.field_subject
     - node.type.news
-    - taxonomy.vocabulary.material_source
-id: node.news.field_source
-field_name: field_source
+    - taxonomy.vocabulary.subject
+id: node.news.field_subject
+field_name: field_subject
 entity_type: node
 bundle: news
-label: Source
+label: Subject
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -19,7 +19,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      material_source: material_source
+      subject: subject
     sort:
       field: _none
     auto_create: false

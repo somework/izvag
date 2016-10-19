@@ -2,10 +2,9 @@ name: 'Izvestia content type "News"'
 description: ''
 type: module
 core: 8.x
+package: izvestia
 
 dependencies:
-  - text
-  - izvestia_taxonomy
+  - scheduler
   - izvestia_content_fields
-
-package: izvestia
+  - izvestia_content_author

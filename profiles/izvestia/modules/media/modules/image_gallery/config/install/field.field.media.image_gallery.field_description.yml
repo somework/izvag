@@ -3,13 +3,13 @@ status: true
 dependencies:
   config:
     - field.storage.media.field_description
-    - media_entity.bundle.gallery
+    - media_entity.bundle.image_gallery
   module:
     - text
-id: media.gallery.field_description
+id: media.image_gallery.field_description
 field_name: field_description
 entity_type: media
-bundle: gallery
+bundle: image_gallery
 label: Description
 description: ''
 required: false
