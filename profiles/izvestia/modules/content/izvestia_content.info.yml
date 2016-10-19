@@ -9,5 +9,7 @@ dependencies:
   - izvestia_content_article
   - izvestia_content_interview
   - izvestia_content_reportage
+  - izvestia_content_opinion
+  - izvestia_content_charity
 
 package: izvestia

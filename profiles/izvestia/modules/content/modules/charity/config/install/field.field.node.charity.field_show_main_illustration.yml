@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_main_illustration
+    - node.type.charity
+id: node.charity.field_show_main_illustration
+field_name: field_show_main_illustration
+entity_type: node
+bundle: charity
+label: 'Show main illustration'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean
