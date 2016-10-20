@@ -8,3 +8,4 @@ dependencies:
   - scheduler
   - izvestia_content_fields
   - izvestia_content_author
+  - izvestia_content_plot

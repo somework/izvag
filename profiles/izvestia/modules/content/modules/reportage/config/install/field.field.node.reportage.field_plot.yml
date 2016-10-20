@@ -2,24 +2,24 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_subject
-    - node.type.news
-    - taxonomy.vocabulary.subject
-id: node.news.field_subject
-field_name: field_subject
+    - field.storage.node.field_plot
+    - node.type.reportage
+    - node.type.plot
+id: node.broadcast.field_plot
+field_name: field_plot
 entity_type: node
-bundle: news
-label: Subject
+bundle: reportage
+label: Reportage
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:taxonomy_term'
+  handler: 'default:node'
   handler_settings:
     target_bundles:
-      subject: subject
+      reportage: reportage
     sort:
       field: _none
     auto_create: false

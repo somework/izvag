@@ -11,5 +11,6 @@ dependencies:
   - izvestia_content_reportage
   - izvestia_content_opinion
   - izvestia_content_charity
+  - izvestia_content_plot
 
 package: izvestia
