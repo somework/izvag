@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: User company size
+vid: user_company_size
+description: ''
+hierarchy: 0
+weight: 0

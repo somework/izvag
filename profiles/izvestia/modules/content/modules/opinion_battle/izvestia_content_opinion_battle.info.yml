@@ -1,0 +1,9 @@
+name: 'Izvestia content type "Opinion Battle"'
+description: ''
+type: module
+core: 8.x
+package: izvestia
+
+dependencies:
+  - izvestia_content_fields
+  - izvestia_media_opinion_quote

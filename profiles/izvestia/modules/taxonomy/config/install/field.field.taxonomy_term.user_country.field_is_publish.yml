@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_is_publish
+    - taxonomy.vocabulary.user_country
+id: taxonomy_term.user_country.field_is_publish
+field_name: field_is_publish
+entity_type: taxonomy_term
+bundle: user_country
+label: 'Is Publish'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

@@ -1,0 +1,19 @@
+name: 'Izvestia video embed bundle'
+description: 'Provides video embed for media'
+type: module
+core: 8.x
+
+dependencies:
+  - node
+  - text
+  - izvestia_content_author
+  - izvestia_content_article
+  - izvestia_content_news
+  - izvestia_content_broadcast
+  - izvestia_content_charity
+  - izvestia_content_interview
+  - izvestia_content_opinion
+  - izvestia_content_reportage
+  - izvestia_media_fields
+
+package: izvestia

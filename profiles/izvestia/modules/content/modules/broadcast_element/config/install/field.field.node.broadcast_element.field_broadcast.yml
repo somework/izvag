@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_broadcast
+    - node.type.broadcast
+    - node.type.broadcast_element
+id: node.broadcast_element.field_broadcast
+field_name: field_broadcast
+entity_type: node
+bundle: broadcast_element
+label: Broadcast
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      broadcast: broadcast
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

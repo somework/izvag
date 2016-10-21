@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_opinion_against
+    - media_entity.bundle.opinion_quote
+    - node.type.opinion_battle
+id: node.opinion_battle.field_opinion_against
+field_name: field_opinion_against
+entity_type: node
+bundle: opinion_battle
+label: 'Opinion against'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      opinion_quote: opinion_quote
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

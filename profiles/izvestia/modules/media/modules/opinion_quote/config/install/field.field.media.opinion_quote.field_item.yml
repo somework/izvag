@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_item
+    - media_entity.bundle.opinion_quote
+    - node.type.article
+    - node.type.broadcast
+    - node.type.charity
+    - node.type.interview
+    - node.type.news
+    - node.type.opinion
+    - node.type.reportage
+id: media.opinion_quote.field_item
+field_name: field_item
+entity_type: media
+bundle: opinion_quote
+label: Item
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+      broadcast: broadcast
+      charity: charity
+      interview: interview
+      news: news
+      opinion: opinion
+      reportage: reportage
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: news
+field_type: entity_reference

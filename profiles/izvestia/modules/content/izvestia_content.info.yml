@@ -12,5 +12,8 @@ dependencies:
   - izvestia_content_opinion
   - izvestia_content_charity
   - izvestia_content_plot
+  - izvestia_content_broadcast
+  - izvestia_content_broadcast_element
+  - izvestia_content_opinion_battle
 
 package: izvestia

@@ -11,5 +11,6 @@ dependencies:
   - izvestia_media_infographic_html
   - izvestia_media_image_gallery
   - izvestia_media_document
+  - izvestia_media_opinion_quote
 
 package: izvestia
