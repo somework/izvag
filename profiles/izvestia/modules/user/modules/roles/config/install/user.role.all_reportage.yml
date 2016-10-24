@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+id: all_reportage
+label: 'All reportage'
+weight: 6
+is_admin: null
+permissions:
+  - 'create reportage content'
+  - 'delete own reportage content'
+  - 'edit any reportage content'
+  - 'edit own reportage content'
+  - 'schedule publishing of nodes'

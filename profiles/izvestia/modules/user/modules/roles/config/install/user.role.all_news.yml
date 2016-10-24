@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+id: all_news
+label: 'All news'
+weight: 6
+is_admin: null
+permissions:
+  - 'create news content'
+  - 'delete own news content'
+  - 'edit any news content'
+  - 'edit own news content'
+  - 'schedule publishing of nodes'

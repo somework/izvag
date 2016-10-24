@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+id: all_charity
+label: 'All charity'
+weight: 6
+is_admin: null
+permissions:
+  - 'create charity content'
+  - 'delete own charity content'
+  - 'edit any charity content'
+  - 'edit own charity content'
+  - 'schedule publishing of nodes'

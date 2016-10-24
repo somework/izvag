@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+id: all_opinion
+label: 'All opinion'
+weight: 6
+is_admin: null
+permissions:
+  - 'create opinion content'
+  - 'delete own opinion content'
+  - 'edit any opinion content'
+  - 'edit own opinion content'
+  - 'schedule publishing of nodes'

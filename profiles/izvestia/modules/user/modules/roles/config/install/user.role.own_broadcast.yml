@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+id: own_broadcast
+label: 'Own broadcast'
+weight: 5
+is_admin: null
+permissions:
+  - 'create broadcast content'
+  - 'delete own broadcast content'
+  - 'edit own broadcast content'
+  - 'schedule publishing of nodes'

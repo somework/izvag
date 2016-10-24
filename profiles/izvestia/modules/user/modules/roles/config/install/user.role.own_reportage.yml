@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+id: own_reportage
+label: 'Own reportage'
+weight: 5
+is_admin: null
+permissions:
+  - 'create reportage content'
+  - 'delete own reportage content'
+  - 'edit own reportage content'
+  - 'schedule publishing of nodes'

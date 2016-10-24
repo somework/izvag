@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+id: media_material
+label: 'Media material'
+weight: 7
+is_admin: null
+permissions:
+  - 'access media overview'
+  - 'delete any media'
+  - 'delete media'
+  - 'update any media'
+  - 'update media'
+  - 'view media'

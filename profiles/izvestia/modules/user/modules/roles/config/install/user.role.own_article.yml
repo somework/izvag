@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+id: own_article
+label: 'Own article'
+weight: 5
+is_admin: null
+permissions:
+  - 'create article content'
+  - 'delete own article content'
+  - 'edit own article content'
+  - 'schedule publishing of nodes'

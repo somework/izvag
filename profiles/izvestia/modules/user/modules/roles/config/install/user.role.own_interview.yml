@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+id: own_interview
+label: 'Own interview'
+weight: 5
+is_admin: null
+permissions:
+  - 'create interview content'
+  - 'delete own interview content'
+  - 'edit own interview content'
+  - 'schedule publishing of nodes'

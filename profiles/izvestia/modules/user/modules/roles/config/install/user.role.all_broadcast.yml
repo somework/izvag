@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+id: all_broadcast
+label: 'All broadcast'
+weight: 6
+is_admin: null
+permissions:
+  - 'create broadcast content'
+  - 'delete own broadcast content'
+  - 'edit any broadcast content'
+  - 'edit own broadcast content'
+  - 'schedule publishing of nodes'
