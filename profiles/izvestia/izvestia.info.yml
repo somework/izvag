@@ -7,7 +7,9 @@ distribution:
   name: Izvestia (by ADV/web-engineering)
 
 themes:
-  - stark
+  - bartik
+  - seven
+
 dependencies:
 # Core
   - block
@@ -27,6 +29,9 @@ dependencies:
   - views_ui
   - editor
   - ckeditor
+  - search
+  - toolbar
+  - block_content
 # Modules with config
   - izvestia_system
   - izvestia_taxonomy
